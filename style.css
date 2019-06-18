@@ -4,6 +4,15 @@
     color: #97c93e !important; 
 }
 
+.btn-platzi{
+    background: #97c93e !important; 
+    color: white !important; 
+}
+
+.btn-platzi:hover{
+    background: #82ad36 !important; 
+}
+
 /* /Common classes */
 
 /* Header */
@@ -22,7 +31,29 @@
     filter: grayscale(70%);
 }
 
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute; 
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    background: rgba(0,0,0,.5); 
+    color: white; 
+}
+
 /* /Main */
+
+/* Place Time */
+
+#place-time{
+    color: white; 
+}
+
+/* /Place Time */
 
 /* Footer */
 
